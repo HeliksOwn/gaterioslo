@@ -43,7 +43,7 @@ const Dropdown = ({options, selected, onSelectedChange}) => {
       <button onClick={() => {setShowDropdown(!showDropdown)}}>Toggle dropdown</button>
       <div ref={ref} className="ui form">
         <div className="field">
-          <label className="Label">Velg en farge</label>
+          <label className="Label">Valg</label>
           <div onClick={() => setOpen(!open)} 
           className={`ui selection dropdown ${open ? 'visible active' : ''}`}>
             <i className="dropdown icon"></i>
